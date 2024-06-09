@@ -1,0 +1,47 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+    font-family: monospace;
+    margin-bottom: -10px;
+}
+
+span {
+    text-align: center;
+    color: green;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+input {
+    width: 200px;
+    height: 20px;
+    padding: 10px;
+}
+
+select {
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    transition: .5s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: #fff;
+}

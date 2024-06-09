@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de medias</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div id="container">
+            <h1>Conversor de medidas</h1>
+            <span>De:</span>
+            <label for="">
+                <input required type="number" name="value" id="value">
+            </label>
+            <select name="opcoes" id="option">
+                <option value="" disabled selected>Selecionar</option>
+                <option value="m">Metros (m)</option>
+                <option value="km">Quilômetros (km)</option>
+                <option value="hm">Hectômetros (hm)</option>
+                <option value="dam">Decâmetros (dam)</option>
+                <option value="dm">Decímetros (dm)</option>
+                <option value="cm">Centímetros (cm)</option>
+                <option value="mm">Milímetros (mm)</option>
+            </select>
+            <span>Para:</span>
+            <select name="opcoes" id="option2">
+                <option value="" disabled selected>Selecionar</option>
+                <option value="m">Metros (m)</option>
+                <option value="km">Quilômetros (km)</option>
+                <option value="hm">Hectômetros (hm)</option>
+                <option value="dam">Decâmetros (dam)</option>
+                <option value="dm">Decímetros (dm)</option>
+                <option value="cm">Centímetros (cm)</option>
+                <option value="mm">Milímetros (mm)</option>
+            </select>
+            <button onclick="converter()">Converter</button>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
